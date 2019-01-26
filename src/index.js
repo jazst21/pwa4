@@ -12,9 +12,7 @@ const App = () => {
         <ApprovalCard>
             <CommentDetail author="Sam" timeAgo={faker.date.recent().toDateString()} content="Nice blog post" avatar={faker.image.avatar()} />
         </ApprovalCard>
-        <ApprovalCa
-        
-        rd>
+        <ApprovalCard>
             <CommentDetail author="Sandy" timeAgo="1 AM" content="i like this" avatar={faker.image.avatar()} />
         </ApprovalCard>
         <ApprovalCard>
